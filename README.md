@@ -7,9 +7,9 @@ standalone C++ performance benchmarks.
 
 | Directory | Entry point | Purpose |
 | --- | --- | --- |
-| [`VDF_VDC_MATLAB/`](VDF_VDC_MATLAB/) | [`run_real_experiment.m`](VDF_VDC_MATLAB/run_real_experiment.m) | Run VDF–VDC and the Li, Tabb rp1, and Tabb Zc2 baselines on the real-world example. |
-| [`VDF_VDC_CPP/`](VDF_VDC_CPP/) | [`RunRealExperiment.cpp`](VDF_VDC_CPP/RunRealExperiment.cpp) | Benchmark four VDF–VDC implementations with different normal-equation solvers. |
-| [`HALCON_Benchmark/`](HALCON_Benchmark/) | [`RunHalconBenchmark.cpp`](HALCON_Benchmark/RunHalconBenchmark.cpp) | Benchmark HALCON nonlinear hand–eye calibration separately. |
+| [`VDF_VDC_MATLAB/`](https://github.com/closedloop-calib/VDF_VDC/tree/main/VDF_VDC_MATLAB) | [`run_real_experiment.m`](VDF_VDC_MATLAB/run_real_experiment.m) | Run VDF–VDC and the Li, Tabb rp1, and Tabb Zc2 baselines on the real-world example. |
+| [`VDF_VDC_CPP/`](https://github.com/closedloop-calib/VDF_VDC/tree/main/VDF_VDC_CPP) | [`RunRealExperiment.cpp`](VDF_VDC_CPP/RunRealExperiment.cpp) | Benchmark four VDF–VDC implementations with different normal-equation solvers. |
+| [`HALCON_Benchmark/`](https://github.com/closedloop-calib/VDF_VDC/tree/main/HALCON_Benchmark) | [`RunHalconBenchmark.cpp`](HALCON_Benchmark/RunHalconBenchmark.cpp) | Benchmark HALCON nonlinear hand–eye calibration separately. |
 
 ## Example data
 
