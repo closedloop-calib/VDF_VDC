@@ -19,9 +19,7 @@ with 88 ChArUco corners per view. The data were collected with an FR3 robot and
 an eye-in-hand monocular camera at 4384 × 3288 pixels. The target has 11 × 8
 corners at 15 mm spacing.
 
-The 80 original images and 80 corresponding robot poses are available in the
-[raw calibration data on Google Drive](https://drive.google.com/drive/folders/13A5Y0QUgKiESrSq64oKzl_8M-GJxd95-?usp=drive_link).
-The examples below read the processed text file directly.
+The [Google Drive folder](https://drive.google.com/drive/folders/13A5Y0QUgKiESrSq64oKzl_8M-GJxd95-?usp=drive_link) contains the 80 original calibration images, their corresponding robot poses (`robotpose.xlsx`), the Python script `prepare_hand_eye_data.py`, and a `README.txt` with setup and usage instructions. The script generates [`hand_eye_calibration_input.txt`](hand_eye_calibration_input.txt) from the images and robot poses. The MATLAB and C++ examples read the processed file included in this repository directly.
 
 ## MATLAB calibration
 
